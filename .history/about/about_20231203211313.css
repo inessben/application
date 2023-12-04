@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    color: #c8c8c8;
+    padding: 0;
+}
+
+#nav-header {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.link {
+    filter: drop-shadow(4px 5px 6px #b2b1b1);
+    padding: 8px;
+    text-decoration: none;
+    color: #b3b3b3;
+    margin: auto 40px;
+}
+
+.link:hover {
+    opacity: 0.7;
+}
+
+    #qualities-container {
+    width: 400px;
+    text-align: center;
+    }
+    
+    h2 {
+    color: #333;
+    }
+    
+    .quality {
+    margin-top: 20px;
+    }
+    
+    .quality img {
+    width: 50px; /* Ajuste la taille de l'image selon tes besoins */
+    }
+    
+    .quality p {
+    margin-top: 10px;
+    }
+    
+    /* Ajoute des animations personnalisées pour chaque qualité */
+    #quality1:hover,
+    #quality2:hover,
+    #quality3:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    }
+    

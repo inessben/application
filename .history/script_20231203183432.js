@@ -1,0 +1,27 @@
+const textContent = document.getElementById('text-content');
+const interactiveSection = document.getElementById('interactive-section');
+
+document.addEventListener('keydown', function (event) {
+  if (event.code === 'Space') {
+    switch (textContent.innerText) {
+      case 'Hello Yousra':
+        textContent.innerText = 'Hello Yasmine';
+        break;
+      case 'Hello Yasmine':
+        textContent.innerText = 'Hello Chi Khanh';
+        break;
+      case 'Hello Chi Khanh':
+        textContent.innerText = '...Or anyone else from the team';
+        break;
+      case '...Or anyone else from the team':
+        textContent.innerText = '...Let me present you...';
+        break;
+      default:
+        interactiveSection.style.overflow = 'scroll';
+        break;
+    }
+  }
+
+  // Déplacer le texte vers la gauche à chaque pression de la barre d'espace
+  textContent.style.transform = 'translateX(0)';
+});

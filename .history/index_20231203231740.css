@@ -1,0 +1,126 @@
+@font-face {
+    font-family: "Jolley";
+    src: url("/fonts/jolley.woff");
+    }
+
+@font-face {
+    font-family: "Base Neue";
+    src: url("/fonts/base-neue.ttf");
+    }
+
+body {
+    margin: 0;
+    font-family: "Base Neue";
+    background-color: #000000;
+    color: #c8c8c8;
+    padding: 0;
+    }
+
+#nav-header {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    }
+
+.link {
+    filter: drop-shadow(4px 5px 6px #b2b1b1);
+    padding: 8px;
+    text-decoration: solid white ;
+    color: #b3b3b3;
+    margin: auto 40px;
+    }
+
+.link:hover {
+    opacity: 0.7;
+    }
+
+#interactive-section {
+    font-family: "Jolley";
+    height: 100vh;
+    font-size: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000000;
+    transition: opacity 0.5s ease-in-out;
+    }
+
+#main-content {
+    position: relative;
+    height: 100vh;
+    color: #b3b3b3;
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: justify;
+    padding: 0 20px;
+    transition: opacity 0.5s ease-in-out;
+    }
+
+.gif{
+    position: absolute;
+    z-index: 0;
+}
+
+#carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    }
+
+img{
+    position: relative;
+
+    margin-left: -200px;
+    border-radius: 100px;
+    width: 120px;
+    }
+
+#testimonial1,
+#testimonial2, 
+#testimonial3{
+    height: 50vh;
+    width: 400px;
+    background: #B6C5B6;
+    color: #333;
+    border-radius: 20px;
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    text-align: center;
+    opacity: 0.8;
+    }
+
+#testimonial1 p,
+#testimonial2 p, 
+#testimonial3 p{
+    position: relative;
+    top: -100px;
+    padding: 20px;
+    z-index: 99;
+    font-size: 18px;
+    text-align: left;
+    }
+    
+#testimonial1 h3,
+#testimonial2 h3, 
+#testimonial3 h3{
+    position: relative;
+    text-align: right;
+    top: -100px;
+    right: -180px;
+    z-index: 99;
+    width: 200px;
+    font-size: 12px;
+
+    }
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }

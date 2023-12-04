@@ -1,0 +1,116 @@
+
+@font-face {
+    font-family: "Jolley";
+    src: url("/fonts/jolley.woff");
+    }
+
+@font-face {
+    font-family: "Base Neue";
+    src: url("/fonts/base-neue.ttf");
+    }
+
+html {
+    scroll-behavior: smooth;
+    }
+
+body {
+    margin: 0;
+    font-family: "Base Neue";
+    background-color: #000000;
+    color: #c8c8c8;
+    padding: 0;
+    }
+
+#nav-header {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px;
+    }
+
+.link {
+    filter: drop-shadow(4px 5px 6px #b2b1b1);
+    padding: 8px;
+    text-decoration: none;
+    color: #b3b3b3;
+    margin: auto 40px;
+    }
+
+.link:hover {
+    opacity: 0.7;
+    }
+
+#description{
+    position: relative;
+    top: 100px;
+    font-size: 24px;
+    margin: 50px;
+    width: 1200px;
+    color: #c8c8c8;
+    }
+
+#contact-form-container {
+    position: absolute;
+    margin: 50px;
+    top: 450px;
+    width: 850px;
+    }
+    
+#contact-form {
+    position: absolute;
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    }
+    
+#contact-form h2 {
+    text-align: center;
+    color: #333;
+    }
+    
+#contact-form label {
+    margin-top: 10px;
+    }
+    
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    }
+    
+#contact-form button {
+    background-color: #FFDDDC;
+    font-family: "Base Neue";
+    color: black;
+    align-items: center;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    }
+    
+#contact-form button:hover {
+    background-color: #45a049;
+    }
+
+#contact-form-container:hover #contact-form {
+    transform: rotate(5deg);
+    }
+    
+footer
+{
+    position: relative;
+    bottom: -s300px;
+    font-size: 16px;
+    width: 1350px;
+    margin: 50px;
+}

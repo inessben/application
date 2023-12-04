@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- generate the icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <!--  -->
+    <meta name="theme-color" content="#ffffff">
+    <title>#slowlyApplication</title>
+    <link rel="stylesheet" href="about.css">
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var formInputs = document.querySelectorAll("#contact-form input, #contact-form textarea")
+
+        formInputs.forEach(function(input) {
+            input.addEventListener("click", function() {
+                alert("Bien joué ! Vous avez débloqué la quête secrète ! 🚀\n\nPour compléter cette mission, vous n'avez qu'à scroller encore un peu👇, pour trouver mes coordonnées. Les pigeons voyageurs fonctionnent aussi, mais c'est un peu rétro. 😉")
+            })
+        })
+    })
+</script>
+</head>
+<body>
+    <section id="nav-header">
+        <header class="nav-links">
+            <a href="/index.html" class="link">Accueil</a>
+            <a href="/company/company.html" class="link">Pourquoi votre entreprise ?</a>
+        </header>
+    </section>
+    <section id="description">
+        <h1>Je vous choisis car...</h1>
+        <p> En tant que passionné de mode et de design👗, rejoindre votre entreprise semble être le choix évident ✨! Votre dynamique rappelle ma garde-robe : innovante, audacieuse et toujours prête à repousser les limites. Travailler ici serait comme créer la tenue parfaite 💯: excitant, artistique et avec une touche d'inattendu. Je suis prêt à apporter ma créativité à votre équipe, tout comme un accessoire essentiel complète une tenue exceptionnelle. 🌟 </p>
+    </section>
+
+    <section id="contact-form-container">
+        <form id="contact-form">
+        <h2>Contactez-moi</h2>
+        
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        
+        <button type="submit">Envoyer</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>Pour une immersion totale, n'hésitez pas à explorer les liens suivants. Spoiler alert : mon portfolio <a href="https://iness-portfolio.vercel.app/">ici</a> est une immersion intergalactique futuriste, mon <a href="mailto:ine.benss@gmail.com">e-mail</a> est la boîte à idées, et sur <a href="https://www.linkedin.com/in/iness-benaissa/">LinkedIn</a>, <a href="lien-vers-ton-github">GitHub</a>, et <a href="lien-vers-ton-insta">Instagram</a>, c'est là que l'histoire continue à se dérouler. Prêt(e) pour l'aventure ? 🚀😄</p>
+    </footer>
+    
+</body>
+</html>
