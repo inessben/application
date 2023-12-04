@@ -40,8 +40,7 @@
                     event.preventDefault();
 
                     // Hide the current text
-                    // textElement.style.display = "none";
-                    textElement.classList.add = "hidden";
+                    textElement.style.display = "none";
 
                     // Increment index or reset if it exceeds the length of texts
                     currentTextIndex = (currentTextIndex + 1) % (texts.length + 1);
@@ -53,7 +52,6 @@
 
                     // Set the new text and display it
                     textElement.textContent = texts[currentTextIndex - 1];
-                    textElement.classList.remove = ("hidden");
                     textElement.style.display = "block";
                 }
             }

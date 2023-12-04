@@ -23,10 +23,10 @@
 
         // Array of texts to cycle through
         var texts = [
-            "Hello Yousra !",
-            "Hello Yasmine !",
-            "Hello Chi Khanh !",
-            "...Or anyone from the team",
+            "Hello Yousra",
+            "Hello Yasmine",
+            "Hello Chi Khanh",
+            "...Or anyone else from the team",
             "Let me present you..."
         ];
 
@@ -40,8 +40,7 @@
                     event.preventDefault();
 
                     // Hide the current text
-                    // textElement.style.display = "none";
-                    textElement.classList.add = "hidden";
+                    textElement.style.display = "none";
 
                     // Increment index or reset if it exceeds the length of texts
                     currentTextIndex = (currentTextIndex + 1) % (texts.length + 1);
@@ -53,7 +52,6 @@
 
                     // Set the new text and display it
                     textElement.textContent = texts[currentTextIndex - 1];
-                    textElement.classList.remove = ("hidden");
                     textElement.style.display = "block";
                 }
             }
@@ -77,16 +75,14 @@
             <a href="/about/about.html" class="link">A propos</a>
         </header>
     </section>
-    <div class="info"> click on the space bar </div>
+    <div class="info"> click to the space bar </div>
 
     <section id="interactive-section">
-    <p id="text-content"></p>
     </section>
     
     <img src="/images/giphy.gif" alt="alice" class="gif">
     <section id="main-content">
         <h1><strong>Les Aventures Webtastiques d'Iness</strong></h1>
-        <br>
         <p>Dans les méandres du code et des câbles🖥️, Iness, étudiante en troisième année de développement web, se fraye un chemin éclairé par le clavier lumineux de son laptop⌨️. <br>Entre deux lignes de code, elle jongle avec les défis du monde digital comme un chef d'orchestre virtuel. Un jour, elle a résolu un bug si rapidement que son écran a failli prendre feu✨, on dit même que son laptop a applaudi👏. <br>Les cafés sont ses potions magiques☕, et les nuits blanches ses aventures épiques💤.
         <br>Quant à son Bachelor d'Ingénieur du Web🎓, Iness a fait preuve de détermination en naviguant à travers les méandres des projets, des examens et des serveurs capricieux. <br>Lorsqu'on lui demande comment elle fait tout cela, elle répond avec un sourire malicieux : "C'est simple, il suffit de coder avec une touche de folie et une pincée de caféine !"😼 <br>Iness est sur le point de décrocher son diplôme👩‍🎓, et le monde numérique tremble d'anticipation.🍾</p>
     </section>
